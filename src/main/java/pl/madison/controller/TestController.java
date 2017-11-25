@@ -14,6 +14,7 @@ public class TestController {
 
     @Autowired
     private PokojDao pokojDaoo;
+    @Autowired
     private CzlowiekDao czlowiekDaoo;
 
     @RequestMapping(value = "/wyswietlMieszkancow", method = RequestMethod.GET)

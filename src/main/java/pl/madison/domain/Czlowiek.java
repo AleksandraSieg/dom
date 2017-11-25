@@ -13,7 +13,7 @@ public class Czlowiek {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long Id;
+    private Long IdCzlowiek;
     private String imie;
     private Integer wiek;
 }

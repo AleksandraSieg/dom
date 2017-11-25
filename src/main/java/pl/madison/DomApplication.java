@@ -17,6 +17,7 @@ public class DomApplication implements CommandLineRunner{
 
     @Autowired
     CzlowiekDao repositoryCzlowiek;
+    @Autowired
     PokojDao repositoryPokoj;
 
     public void run(String... strings) throws Exception {
